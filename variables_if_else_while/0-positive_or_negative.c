@@ -8,7 +8,7 @@
  *
  * Description: Print different result depending of the randomize number.
  *
- * Return: Always 0 "Success"
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
