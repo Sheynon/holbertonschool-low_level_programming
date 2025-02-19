@@ -15,7 +15,7 @@ int main(void)
 	while (b < 10)
 	{
 		printf("%d", b);
-		b++
+		b++;
 	}
 	printf("\n");
 	return (0);
