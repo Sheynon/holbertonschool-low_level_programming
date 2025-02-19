@@ -15,12 +15,7 @@ int main(void)
 
 	while (a <= 'z')
 	{
-		if (a == 'e')
-		{
-			a++;
-			continue;			
-		}
-		else if (a == 'q')
+		if (a == 'e' || a == 'q')
 		{
 			a++;
 			continue;
