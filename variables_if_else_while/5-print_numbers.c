@@ -10,11 +10,12 @@
 
 int main(void)
 {
-	int b;
+	int b = 0;
 
-	for (b = 0; b < 10; b++)
+	while (b < 10)
 	{
 		printf("%d", b);
+		b++
 	}
 	printf("\n");
 	return (0);
