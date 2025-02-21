@@ -8,10 +8,8 @@
  * Return: -a if the if is true a if it's false
  */
 
-int _abs(int)
+int _abs(int a)
 {
-	int a;
-
 	if (a < 0)
 		return (-a);
 	return (a);
