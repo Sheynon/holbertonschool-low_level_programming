@@ -2,6 +2,7 @@
 
 /**
  * _islower - Entry point of the program
+ * @c: The character to check
  *
  * Description: Function than return 1 if the if is true
  * And 0 if the if is false.
