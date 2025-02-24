@@ -9,7 +9,7 @@
  * print FizzBuzz for both
  * separate each number by a space
  *
- * Return: Always 1 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -31,5 +31,5 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
-	return (1);
+	return (0);
 }
