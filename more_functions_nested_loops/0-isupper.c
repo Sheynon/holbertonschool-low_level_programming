@@ -13,9 +13,9 @@
 
 int _isupper(int c)
 {
-	for (c = 65; c <= 90; c++)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		if (c >= 65 && c <= 90)
+		if (c >= 'A' && c <= 'Z')
 			return (1);
 	}
 	return (0);
