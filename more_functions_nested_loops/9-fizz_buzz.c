@@ -4,12 +4,12 @@
  * main - Entry point of the program
  *
  * Description: Print all number from 1 to 100
- * Print Fizz for multiple of 3
- * Print Buzz for multiple of 5
- * Print FizzBuzz for both
- * Separate each number by a space
+ * print Fizz for multiple of 3
+ * print Buzz for multiple of 5
+ * print FizzBuzz for both
+ * separate each number by a space
  *
- * return: Always 0 (success)
+ * Return: Always 1 (success)
  */
 
 int main(void)
@@ -31,5 +31,5 @@ int main(void)
 			printf(" ");
 	}
 	printf("\n");
-	return (0);
+	return (1);
 }
