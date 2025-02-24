@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ * print_numbers - Funtion to execute in the program
+ *
+ * Description: Function to print the number from 0 to 9
  */
 
 void print_numbers(void)
