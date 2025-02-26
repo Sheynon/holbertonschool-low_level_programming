@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <limits.h>
 /**
  * _atoi - Function to execute in the program
  * @s: first integrer
