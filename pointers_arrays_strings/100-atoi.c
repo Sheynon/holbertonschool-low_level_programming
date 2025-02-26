@@ -25,6 +25,10 @@ int _atoi(char *s)
 
 		else if (s[a] >= '0' && s[a] <= '9')
 		{
+			if (c > (INT_MAX - (s[a] - '0')) / 10)
+			{
+				return (b == 1 ? INT_MAX : INT_MIN);
+			}
 			c = c * 10 + (s[a] - '0');
 		}
 
