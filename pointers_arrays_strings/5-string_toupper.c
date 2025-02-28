@@ -2,7 +2,7 @@
 
 /**
  * string_toupper -  Function to execute in the program
- * @*: First integrer
+ * @str: First integrer
  *
  * Description: Function that change all the lowercase letters
  * in uppercase one
