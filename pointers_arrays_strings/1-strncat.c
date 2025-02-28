@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *strncat - Function to execute in the program
+ * *_strncat - Function to execute in the program
  * @dest: Destination integrer
  * @src: Source Integrer
  * @n: Third Integrer
