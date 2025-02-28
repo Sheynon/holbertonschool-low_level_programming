@@ -29,6 +29,7 @@ char *cap_string(char *str)
 		{
 			b = 0;
 		}
+		a++;
 	}
 
 	return (str);
