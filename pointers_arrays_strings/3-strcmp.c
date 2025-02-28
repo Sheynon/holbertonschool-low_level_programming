@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcmp -
- * @s1:
- * @s2:
+ * _strcmp - Function to execute in the program
+ * @s1: first integrer
+ * @s2: second integrer
  *
- * Description:
+ * Description: Fonction to compare two string
  *
- * Return:
+ * Return: return 0 if the string are exactly identic
  */
 
 int _strcmp(char *s1, char *s2)
