@@ -12,7 +12,7 @@
  * Return: return the content of "dest"
  */
 
-char *_strncar(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a = 0, b = 0;
 
@@ -21,7 +21,7 @@ char *_strncar(char *dest, char *src, int n)
 		a++;
 	}
 
-	while (b < n && src[b] !='\0')
+	while (b < n && src[b] != '\0')
 	{
 		dest[a] = src[b];
 		a++;
