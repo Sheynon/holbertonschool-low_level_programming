@@ -14,9 +14,12 @@ char *cap_string(char *str)
 	int a = 0;
 	int b = 1;
 
-	while(str[a] != '\0')
+	while (str[a] != '\0')
 	{
-		if (str[a] == ' ' || str[a] == '\t' || str[a] == '\n' || str[a] == ',' || str[a] == ';' || str[a] == '.' || str[a] == '!' || str[a] == '?' || str[a] == '"' || str[a] == '(' || str[a] == ')' || str[a] == '{' || str[a] == '}')
+		if (str[a] == ' ' || str[a] == '\t' || str[a] == '\n' ||
+		str[a] == ',' || str[a] == ';' || str[a] == '.' ||
+		str[a] == '!' || str[a] == '?' || str[a] == '"' ||
+		str[a] == '(' || str[a] == ')' || str[a] == '{' || str[a] == '}')
 		{
 			b = 1;
 		}
