@@ -12,7 +12,7 @@
  * Return: return the content of "dest"
  */
 
-char *strncar(char *dest, char *src, int n)
+char *_strncar(char *dest, char *src, int n)
 {
 	int a = 0, b = 0;
 
