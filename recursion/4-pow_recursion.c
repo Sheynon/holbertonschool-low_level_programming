@@ -5,7 +5,7 @@
  * @x: First Integrer
  * @y: Second Integrer
  *
- * Description: Function that return the value of x raised 
+ * Description: Function that return the value of x raised
  * by the power of y
  *
  * Return: return the value of x raised by the power of y.
@@ -19,5 +19,5 @@ int _pow_recursion(int x, int y)
 	else if (y == 0)
 		return (1);
 
-	return(x * _pow_recursion(x, y -1));
+	return (x * _pow_recursion(x, y - 1));
 }
