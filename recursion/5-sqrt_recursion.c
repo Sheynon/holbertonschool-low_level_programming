@@ -3,7 +3,7 @@
 /**
  * _sqrt_recursion - Function to execute the program
  * @n: First integrer
- * 
+ *
  * Description: Function that return the natural square
  * root of a number
  *
