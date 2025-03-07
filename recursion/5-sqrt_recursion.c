@@ -31,7 +31,7 @@ int _sqrt_helper(int n, int i)
 	if (n < 0)
 		return (-1);
 	else if (i * i == n)
-		return (n);
+		return (i);
 	else if (i * i > n)
 		return (-1);
 
