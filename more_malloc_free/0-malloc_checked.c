@@ -4,6 +4,8 @@
 /**
  * malloc_checked - FUnction to execute in the program
  * @b: Integrer
+ *
+ * Return: return a pointer to the allocated memory
  */
 
 void *malloc_checked(unsigned int b)
