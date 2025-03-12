@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * _calloc - Function to execute in the program
@@ -10,16 +9,19 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *ptr;
+	char *ptr;
+	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
 	ptr = malloc(nmemb * size);
+
 	if (ptr == NULL)
 		return (NULL);
 
-	memset(ptr, 0, nmemb * size);
+	for (i = 0; i < (nmemb * size); i++)
+		ptr[i] = 0;
 
-	return (ptr);
+	return ((void *)ptr);
 }
