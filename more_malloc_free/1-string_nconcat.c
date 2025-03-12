@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
 /**
  * string_nconcat - Function to execute in the program
  * @s1: First String
@@ -14,7 +12,7 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int len_s1, len_s2;
+	unsigned int i, j, len_s1 = 0, len_s2 = 0;
 	char *result;
 
 	if (s1 == NULL)
@@ -22,18 +20,28 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	len_s1 = strlen(s1);
-	len_s2 = strlen(s2);
+	while (s1[len_s1] != '\0')
+	{
+		len_s1++;
+	}
+	while (s2[len_s2] != '\0')
+	{
+		len_s2++;
+	}
 
 	if (n < len_s2)
 		len_s2 = n;
 
-	result = malloc(len_s1 + len_s2 + 1);
+	result = malloc(sizeof(char) * (len_s1 + n + 1);
+
 	if (result == NULL)
 		return (NULL);
 
-	strcpy(result, s1);
-	strncat(result, s2, len_s2);
+	for (i = 0; i < len_s1; i++)
+		result[i] = s1[i];
+
+	for (j = 0; j < n && s2[j] != '\0'; j++)
+		result[i + j] = s2[j];
 
 	return (result);
 }
