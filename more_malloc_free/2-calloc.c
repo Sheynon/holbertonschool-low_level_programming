@@ -5,6 +5,9 @@
  * _calloc - Function to execute in the program
  * @nmemb: First Integrer
  * @size: Second Integrer
+ *
+ * Return: return NULL when malloc fail or if nmemb or size
+ * are 0. return a pointer to the allocated memory.
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
