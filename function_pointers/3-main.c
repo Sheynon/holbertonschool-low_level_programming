@@ -2,6 +2,8 @@
 
 /**
  * main - Entry point of the program
+ * @argc: the size of the array argv
+ * @argv: array to stock the entry of the user
  *
  * Return: Return 0 for success
  */
@@ -14,7 +16,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 
 	num1 = atoi(argv[1]);
@@ -24,7 +26,7 @@ int main(int argc, char *argv[])
 	if (operation == NULL)
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	result = operation(num1, num2);

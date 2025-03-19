@@ -27,7 +27,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_sub - Function to multiply two integrer
+ * op_mul - Function to multiply two integrer
  * @a: First integrer to multiply
  * @b: Second integrer to multiply
  *
