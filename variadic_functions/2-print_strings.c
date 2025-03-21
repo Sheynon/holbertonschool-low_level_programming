@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /**
- *
+ * print_strings - function to print string
+ * @separator: separator stocked in a var
+ * @n: interger value equal to the number of argument in the
+ * variadic function used
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
