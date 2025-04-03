@@ -6,6 +6,8 @@
  * add_node_end - function to add node at the end of a list
  * @head: pointer to the list
  * @str: pointer of the string to add in the list
+ *
+ * Return: return the adress of the new element or NULL if failed
  */
 
 list_t *add_node_end(list_t **head, const char *str)
