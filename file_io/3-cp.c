@@ -42,7 +42,6 @@ int main(int ac, char **av)
 		close(fd_from);
 		print_error(99, "Error: Can't write to %s\n", av[2]);
 	}
-
 	while ((r = read(fd_from, buffer, BUFFER_SIZE)) > 0)
 	{
 		w = write(fd_to, buffer, r);
@@ -53,7 +52,6 @@ int main(int ac, char **av)
 			print_error(99, "Error: Can't write to %s\n", av[2]);
 		}
 	}
-
 	if (r == -1)
 		print_error(98, "Error: Can't read from file %s\n", av[1]);
 
@@ -67,6 +65,5 @@ int main(int ac, char **av)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_to);
 		exit(100);
 	}
-
 	return (0);
 }
